@@ -485,13 +485,11 @@ main {
 .footer-div {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+  padding: 0 15px;
 }
 
 .container-footer {
   max-width: 264px;
-  margin: 0 auto;
-  padding: 0 15px;
   margin-right: 120px;
 }
 
