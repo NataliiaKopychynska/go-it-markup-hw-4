@@ -379,6 +379,8 @@ main {
 .icon-media-item {
   width: 40px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 16px;
 }
 .ikon-media-link {
   width: 100%;
@@ -396,7 +398,7 @@ main {
 } */
 ..ikon-media-link:hover,
 .ikon-media-link:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .ikon-media-icon {
@@ -528,4 +530,9 @@ main {
 .icon-media-icon-size {
   width: 24px;
   height: 24px;
+}
+
+.icon-media-icon-size:hover,
+.icon-media-icon-size:focus {
+  background-color: #31d0aa;
 }
