@@ -528,7 +528,11 @@ main {
   margin-bottom: 16px;
 }
 
-.icon-media-icon-footer {
+.icon-media-list-footer {
+  display: flex;
+  gap: 16px;
+}
+.icon-media-item-footer {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -546,16 +550,5 @@ main {
 
 .icon-media-icon-size:hover,
 .icon-media-icon-size:focus {
-  background-color: #31d0aa;
-}
-
-svg {
-  fill: #f4f4fd; /* Колір заповнення для SVG іконок */
-  width: 100%; /* Забезпечує, щоб SVG займав повну ширину */
-  height: 100%; /* Забезпечує, щоб SVG займав повну висоту */
-}
-
-.ikon-media-link:hover,
-.ikon-media-link:focus {
   background-color: #31d0aa;
 }
