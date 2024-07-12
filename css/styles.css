@@ -485,6 +485,7 @@ main {
 .footer-div {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 
 .container-footer {
@@ -529,12 +530,12 @@ main {
   margin-bottom: 16px;
 }
 
-/* .icon-media-list-footer {
-  display: flex;
+.icon-media-list-footer {
+  /* display: flex; */
   gap: 16px;
 }
 
-.icon-media-item-footer {
+/* .icon-media-item-footer {
   display: inline-flex;
   align-items: center;
   justify-content: center;
