@@ -400,7 +400,7 @@ main {
 } */
 .icon-media-link:hover,
 .icon-media-link:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .icon-media-icon {
@@ -480,13 +480,17 @@ main {
 .foter-class {
   background-color: #2e2f42;
   padding: 100px 0;
-}
 
-.footer-div {
   display: flex;
   align-items: baseline;
   margin-right: 120px;
 }
+
+/* .footer-div {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+} */
 
 .container-footer {
   max-width: 264px;
@@ -535,6 +539,10 @@ main {
   gap: 16px;
 }
 
+.icon-media-link-footer,
+.icon-media-link-footer {
+  background-color: #31d0aa;
+}
 /* .icon-media-item-footer {
   display: inline-flex;
   align-items: center;
