@@ -856,6 +856,12 @@ main {
   border: 0;
 }
 
+.visually-hidden:checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .label-text-checkbox {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -888,6 +894,14 @@ main {
   color: #4d5ae5;
 
   cursor: pointer;
+}
+
+.privacy-policy {
+  line-height: 16px;
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
 }
 
 .submit {
