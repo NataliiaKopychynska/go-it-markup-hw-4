@@ -856,7 +856,7 @@ main {
   border: 0;
 }
 
-.visually-hidden:checked {
+.checkbox-input:checked + .label-text-checkbox > .label-form-regulamin {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
